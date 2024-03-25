@@ -1,17 +1,17 @@
 // Website you intended to retrieve for users.
-const upstream = 'www.youtube.com'
+const upstream = 'qing-book.com'
 
 // Custom pathname for the upstream website.
 const upstream_path = '/'
 
 // Website you intended to retrieve for users using mobile devices.
-const upstream_mobile = 'www.youtube.com'
+const upstream_mobile = 'qing-book.com'
 
 // Countries and regions where you wish to suspend your service.
 const blocked_region = ['KP', 'SY', 'PK', 'CU']
 
 // IP addresses which you wish to block from using your service.
-const blocked_ip_address = ['0.0.0.0', '127.0.0.1']
+const blocked_ip_address = []
 
 // Whether to use HTTPS protocol for upstream address.
 const https = true
