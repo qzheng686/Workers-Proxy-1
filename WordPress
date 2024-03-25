@@ -1,0 +1,16 @@
+网址带上http或https
+
+// 所有绑定到这个worker的域名
+const domain_list = ['https://web.qing-book.com/', 'https://workers-proxy-1.pages.dev/']
+
+// 要加速的网站.
+const upstream = qing-book.com
+
+// 要给手机用户加速的网站. (可以填成和上面一样的)
+const upstream_mobile = qing-book.com
+
+// 要屏蔽的地区
+const blocked_region = ['', '', '', 'PK', 'CU']
+
+// 要屏蔽的ip
+const blocked_ip_address = []
